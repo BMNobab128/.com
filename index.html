@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Md Bellal Mollah | Portfolio</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+line-height:1.6;
+}
+
+.hero{
+text-align:center;
+padding:70px 20px;
+background:linear-gradient(135deg,#0f172a,#1e293b,#2563eb);
+}
+
+.profile{
+width:180px;
+height:180px;
+border-radius:50%;
+object-fit:cover;
+border:4px solid #60a5fa;
+box-shadow:0 0 25px rgba(96,165,250,.6);
+}
+
+.hero h1{
+margin-top:20px;
+font-size:2.4rem;
+font-weight:700;
+}
+
+.hero p{
+margin-top:10px;
+font-size:1rem;
+color:#cbd5e1;
+}
+
+.social-icons{
+margin-top:25px;
+}
+
+.social-icons a{
+display:inline-block;
+margin:0 10px;
+font-size:28px;
+color:white;
+transition:0.3s;
+}
+
+.social-icons a:hover{
+color:#60a5fa;
+transform:translateY(-5px);
+}
+
+.container{
+width:90%;
+max-width:1100px;
+margin:auto;
+padding:40px 0;
+}
+
+.section-title{
+text-align:center;
+color:#60a5fa;
+margin-bottom:25px;
+font-size:2rem;
+}
+
+.card{
+background:#1e293b;
+padding:25px;
+border-radius:15px;
+margin-bottom:25px;
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+.skills-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.skill-card{
+background:#334155;
+padding:20px;
+border-radius:15px;
+text-align:center;
+transition:.3s;
+}
+
+.skill-card:hover{
+transform:translateY(-8px);
+}
+
+.skill-card i{
+font-size:40px;
+color:#60a5fa;
+margin-bottom:10px;
+}
+
+.project-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+
+.project-card{
+background:#334155;
+padding:20px;
+border-radius:15px;
+border-left:4px solid #60a5fa;
+}
+
+.project-card h3{
+margin-bottom:10px;
+}
+
+.contact p{
+margin:12px 0;
+}
+
+.contact i{
+color:#60a5fa;
+margin-right:10px;
+}
+
+.btn{
+display:inline-block;
+margin-top:15px;
+padding:12px 20px;
+background:#2563eb;
+color:white;
+text-decoration:none;
+border-radius:10px;
+}
+
+.btn:hover{
+background:#1d4ed8;
+}
+
+footer{
+background:#020617;
+text-align:center;
+padding:20px;
+color:#94a3b8;
+margin-top:30px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:1.8rem;
+}
+
+.profile{
+width:150px;
+height:150px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header class="hero">
+
+<img src="profile.jpg" class="profile" alt="Profile">
+
+<h1>Md Bellal Mollah</h1>
+
+<p>
+Computer Science & Engineering Student<br>
+East West University
+</p>
+
+<div class="social-icons">
+
+<a href="#">
+<i class="fab fa-facebook"></i>
+</a>
+
+<a href="#">
+<i class="fab fa-instagram"></i>
+</a>
+
+<a href="#">
+<i class="fab fa-linkedin"></i>
+</a>
+
+<a href="#">
+<i class="fab fa-github"></i>
+</a>
+
+</div>
+
+</header>
+
+<div class="container">
+
+<h2 class="section-title">About Me</h2>
+
+<div class="card">
+
+<p>
+Hello! I'm Md Bellal Mollah, a Computer Science & Engineering student at East West University.
+
+I am interested in Programming, Software Development, Database Systems, Robotics, Artificial Intelligence and Data Science.
+
+My long-term goal is to pursue a fully funded Master's degree abroad through prestigious scholarship programs such as Erasmus Mundus and DAAD.
+</p>
+
+</div>
+
+<h2 class="section-title">Skills</h2>
+
+<div class="skills-grid">
+
+<div class="skill-card">
+<i class="fas fa-code"></i>
+<h3>C Programming</h3>
+</div>
+
+<div class="skill-card">
+<i class="fab fa-java"></i>
+<h3>Java</h3>
+</div>
+
+<div class="skill-card">
+<i class="fas fa-database"></i>
+<h3>SQL</h3>
+</div>
+
+<div class="skill-card">
+<i class="fas fa-laptop-code"></i>
+<h3>Oracle APEX</h3>
+</div>
+
+<div class="skill-card">
+<i class="fas fa-drafting-compass"></i>
+<h3>AutoCAD</h3>
+</div>
+
+<div class="skill-card">
+<i class="fas fa-chart-line"></i>
+<h3>Data Analysis</h3>
+</div>
+
+</div>
+
+<br>
+
+<h2 class="section-title">Projects</h2>
+
+<div class="project-grid">
+
+<div class="project-card">
+<h3>Game Store Management System</h3>
+<p>Java OOP based application for game management.</p>
+</div>
+
+<div class="project-card">
+<h3>Fee Management System</h3>
+<p>Oracle APEX based student fee management system.</p>
+</div>
+
+<div class="project-card">
+<h3>Banking Database System</h3>
+<p>SQL based banking database project.</p>
+</div>
+
+<div class="project-card">
+<h3>TA Management System</h3>
+<p>University teaching assistant management solution.</p>
+</div>
+
+</div>
+
+<br>
+
+<h2 class="section-title">Education</h2>
+
+<div class="card">
+
+<p>
+🎓 <strong>Bachelor of Science in Computer Science & Engineering</strong><br>
+East West University<br><br>
+
+🏫 <strong>College</strong><br>
+Milestone College<br><br>
+
+📚 <strong>Schools</strong><br>
+Sristy Academic School<br>
+Shambhudia M.L. High School
+</p>
+
+</div>
+
+<h2 class="section-title">Achievements</h2>
+
+<div class="card">
+
+<p>
+🏆 Member of East West University Robotics Club (EWURC)<br><br>
+
+🏆 Completed Fusion 360 Product Design Workshop<br><br>
+
+🏆 Interested in Data Science, Research and International Scholarships
+</p>
+
+</div>
+
+<h2 class="section-title">Contact</h2>
+
+<div class="card contact">
+
+<p>
+<i class="fas fa-envelope"></i>
+mr.nobab71@gmail.com
+</p>
+
+<p>
+<i class="fas fa-phone"></i>
+01305229738
+</p>
+
+<p>
+<i class="fas fa-location-dot"></i>
+Dhaka, Bangladesh
+</p>
+
+<a href="cv.pdf" class="btn">
+Download CV
+</a>
+
+</div>
+
+</div>
+
+<footer>
+©️ 2026 Md Bellal Mollah | Portfolio Website
+</footer>
+
+</body>
+</html>
